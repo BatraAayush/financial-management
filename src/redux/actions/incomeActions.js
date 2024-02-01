@@ -1,4 +1,4 @@
-import { addIncome, getIncomes } from "../../services/incomeServices";
+import { addIncome, getIncomes } from "../../services/incomeService";
 import { validateIncomeInput } from "../../utils/incomeUtils";
 import {
   ADD_INCOME,

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { BASE_URL } from "../actionConstants";
+import { BASE_URL } from "../redux/actionConstants";
 
 const addExpense = async (expenseData) => {
   try {

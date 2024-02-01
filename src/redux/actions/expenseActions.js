@@ -1,4 +1,4 @@
-import { addExpense, getExpenses } from "../services/expenseServices";
+import { addExpense, getExpenses } from "../../services/expenseServices";
 import { validateExpenseInput } from "../../utils/expenseUtils";
 import {
   ADD_EXPENSE,

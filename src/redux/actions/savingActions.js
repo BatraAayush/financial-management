@@ -1,4 +1,4 @@
-import { addSaving, getSavings } from "../services/savingServices";
+import { addSaving, getSavings } from "../../services/savingServices";
 import { validateSavingInput } from "../../utils/savingUtils";
 import {
   ADD_SAVING,
