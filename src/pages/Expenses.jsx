@@ -44,7 +44,7 @@ export const Expenses = () => {
       {!loading && (
         <div className="w-[100%] overflow-x-scroll">
           <table className="w-[100%]">
-            <thead className="bg-gray-200 border-2 border-gray-300">
+            <thead className="border-2 border-gray-300">
               <tr>
                 <th className="px-2">Date</th>
                 <th className="px-2">Category</th>

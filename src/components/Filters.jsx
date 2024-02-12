@@ -94,11 +94,11 @@ export const Filters = ({ type = "income" }) => {
               dispatch({ type: filterData.filterType, payload: e.target.value })
             }
             value={filterData.selectedCategory}
-            className="border-2 outline-2 outline-blue-500 rounded-md h-max self-end px-2 ml-2"
+            className="border-2 outline-2 outline-black-500 rounded-md h-max self-end px-2 ml-2"
           >
             {filterData.categories.map((category) => {
               return (
-                <option key={category} className="bg-blue-100">
+                <option key={category} className="bg-black-100">
                   {category}
                 </option>
               );

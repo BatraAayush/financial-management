@@ -35,11 +35,11 @@ export const ExpenseForm = () => {
               )
             }
             value={userInput.category}
-            className="border-2 outline-2 outline-blue-500 rounded-md h-max self-end px-2"
+            className="border-2 outline-2 outline-black-500 rounded-md h-max self-end px-2"
           >
             {expenseCategories.map((category) => {
               return (
-                <option key={category} className="bg-blue-100">
+                <option key={category} className="bg-black-100">
                   {category}
                 </option>
               );
@@ -61,7 +61,7 @@ export const ExpenseForm = () => {
             value={userInput.description}
             type="text"
             placeholder="enter desription"
-            className="border-2 rounded-md max-w-[10rem] px-1 outline-2 outline-blue-500"
+            className="border-2 rounded-md max-w-[10rem] px-1 outline-2 outline-black-500"
           />
         </label>
 
@@ -79,13 +79,13 @@ export const ExpenseForm = () => {
             value={userInput.amount}
             type="number"
             placeholder="enter amount"
-            className="border-2 rounded-md max-w-[10rem] px-1 outline-2 outline-blue-500"
+            className="border-2 rounded-md max-w-[10rem] px-1 outline-2 outline-black-500"
           />
         </label>
 
         <button
           onClick={handleAddExpense}
-          className="bg-blue-500 text-white px-4 py-0.5 rounded-md hover:shadow-lg h-max self-end"
+          className="bg-black text-white px-4 py-0.5 rounded-md hover:shadow-lg h-max self-end"
         >
           Add
         </button>
